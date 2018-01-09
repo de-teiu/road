@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+
+}
+
+body {
+    background-image: url("../image/road.png");
+    background-repeat: repeat;
+    background-size: 25% 50%;
+
+    -webkit-animation: Gradient 15s linear infinite;
+	-moz-animation: Gradient 15s linear infinite;
+    animation: Gradient 0.5s linear infinite;
+
+    cursor: none;
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 0%
+	}
+	100% {
+		background-position: 0% 200%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 0%
+	}
+	100% {
+		background-position: 0% 200%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 0%
+	}
+	100% {
+		background-position: 0% 200%
+	}
+}
